@@ -1,5 +1,5 @@
 //
-//  NewViewController.swift
+//  AViewController.swift
 //  getDemoe
 //
 //  Created by qianfeng on 16/9/20.
@@ -8,12 +8,15 @@
 
 import UIKit
 
-class NewViewController: UIViewController {
+class AViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        print("sadfafg")
+        
     }
 
     override func didReceiveMemoryWarning() {
