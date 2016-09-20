@@ -12,6 +12,7 @@
 		BCF91D721D90D088000CD57D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF91D701D90D088000CD57D /* Main.storyboard */; };
 		BCF91D741D90D088000CD57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF91D731D90D088000CD57D /* Assets.xcassets */; };
 		BCF91D771D90D088000CD57D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF91D751D90D088000CD57D /* LaunchScreen.storyboard */; };
+		BCF91D7F1D90D596000CD57D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF91D7E1D90D596000CD57D /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BCF91D731D90D088000CD57D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCF91D761D90D088000CD57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCF91D781D90D088000CD57D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF91D7E1D90D596000CD57D /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BCF91D731D90D088000CD57D /* Assets.xcassets */,
 				BCF91D751D90D088000CD57D /* LaunchScreen.storyboard */,
 				BCF91D781D90D088000CD57D /* Info.plist */,
+				BCF91D7E1D90D596000CD57D /* NewViewController.swift */,
 			);
 			path = getDemoe;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF91D7F1D90D596000CD57D /* NewViewController.swift in Sources */,
 				BCF91D6F1D90D088000CD57D /* ViewController.swift in Sources */,
 				BCF91D6D1D90D088000CD57D /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				BCF91D7D1D90D088000CD57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
